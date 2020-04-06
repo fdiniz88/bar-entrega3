@@ -12,13 +12,15 @@
 </head>
 <body>
 	<div class="container">
+	 <br>
 	  <h2>Cadastrar sobremesa</h2>
+	   <br>
 	<form action="/sobremesa" method="post">
 
 		
 		    <div class="form-group">
       <label for="validade">Validade:</label>
-      <input type="date" class="form-control" id="validade" placeholder="Digitar validade" name="validade" required>
+      <input type="datetime-local" class="form-control" id="validade" placeholder="Digitar validade" name="validade" required>
     </div>
     <div class="form-group">
       <label for="tamanho">Tamanho:</label>
@@ -28,9 +30,9 @@
       <label for="isFeitoHoje">Feito hoje:</label>
       <input type="checkbox" class="form-control" id="isFeitoHoje" name="isFeitoHoje" required>
     </div>  
-
+ <br>
     <input type="submit"  class="btn btn-primary" value="Cadastrar">	
-    <a href="/home" class="btn btn-sucessy">Voltar</a>   
+   <a href="/home" class="btn btn-secondary">Voltar</a>
 		
 		
 	</form>

@@ -13,8 +13,11 @@
 <body>
 	
 	<div class="container">
+	<br>
   <h2>Cadastrar bebida</h2>
+  <br>
   <form action="/bebida" method="post">
+  
     <div class="form-group">
       <label for="tipo">Tipo:</label>
       <input type="text" class="form-control" id="tipo" placeholder="Digitar tipo" name="tipo" required>
@@ -27,12 +30,13 @@
       <label for="tamanho">Tamanho:</label>
       <input type="number" class="form-control" id="tamanho" placeholder="Digitar tamanho" name="tamanho" required>
     </div>
-       <div class="form-group">
+<!--        <div class="form-group">
       <label for="id_produto">Número do produto:</label>
       <input type="number" class="form-control" id="id_produto" placeholder="Digitar número do produto" name="id_produto" required>
-    </div>
+    </div> -->
+    	<br>
     <input type="submit"  class="btn btn-primary" value="Cadastrar">	
-    <a href="/home" class="btn btn-sucessy">Voltar</a>     
+ <a href="/home" class="btn btn-secondary">Voltar</a>
   </form>
 </div>			
 </body>

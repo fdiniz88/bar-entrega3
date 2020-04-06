@@ -12,9 +12,14 @@
 </head>
 <body>
 	<div class="container">
+	 <br>
 	  <h2>Cadastrar produto</h2>
+	   <br>
 	<form action="/produto" method="post">
-	
+	    <div class="form-group">
+      <label for="tipoProduto">Tipo produto:</label>
+      <input type="text" class="form-control" id="tipoProduto" placeholder="Digitar tipo produto" name="tipoProduto" required>
+    </div>
 		    <div class="form-group">
       <label for="nome">Nome:</label>
       <input type="text" class="form-control" id="nome" placeholder="Digitar nome" name="nome" required>
@@ -27,13 +32,13 @@
       <label for="quantidade">Quantidade:</label>
       <input type="number" class="form-control" id="quantidade" placeholder="Digitar quantidade" name="quantidade" required>
     </div>
-       <div class="form-group">
-      <label for="id_pedido">Número do pedido:</label>
-      <input type="number" class="form-control" id="id_pedido" placeholder="Digitar número do pedido" name="id_pedido" required>
-    </div>
+<!--        <div class="form-group">
+      <label for="idPedido">Número do pedido:</label>
+      <input type="number" class="form-control" id="idPedido" placeholder="Digitar número do pedido" name="idPedido" required>
+    </div> -->
+     <br>
     <input type="submit"  class="btn btn-primary" value="Cadastrar">	
-    <a href="/home" class="btn btn-sucessy">Voltar</a> 
-		
+   <a href="/home" class="btn btn-secondary">Voltar</a>		
 		
 		
 	</form>

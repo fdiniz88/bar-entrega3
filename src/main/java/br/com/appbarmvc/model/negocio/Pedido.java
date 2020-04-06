@@ -29,15 +29,16 @@ public class Pedido {
 	
 	@OneToOne(
 			fetch = FetchType.EAGER,
-			cascade = CascadeType.PERSIST
+			cascade = CascadeType.ALL,
+			orphanRemoval = true
 			)
 	@JoinColumn(name = "idCliente")		
 	private Cliente cliente;
 	
 	@OneToMany(
 			mappedBy = "pedido",
-			fetch = FetchType.EAGER,
-			cascade = CascadeType.PERSIST
+			cascade = CascadeType.ALL,
+			orphanRemoval = true
 			)		
 
     @JsonManagedReference

@@ -9,7 +9,6 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "TPetisco")
 @PrimaryKeyJoinColumn(name = "idProduto")
-
 public  class Petisco extends Produto {
 	
 

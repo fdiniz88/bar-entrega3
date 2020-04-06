@@ -12,12 +12,14 @@
 </head>
 <body>
 	<div class="container">
+	 <br>
 	  <h2>Cadastrar petisco</h2>
+	   <br>
 	<form action="/petisco" method="post">
 
 		    <div class="form-group">
       <label for="tipo">Validade:</label>
-      <input type="date" class="form-control" id="validade" placeholder="Digitar validade" name="validade" required>
+      <input type="datetime-local" class="form-control" id="validade" placeholder="Digitar validade" name="validade" required>
     </div>
     <div class="form-group">
       <label for="marca">Tipo:</label>
@@ -27,14 +29,14 @@
       <label for="isFeitoHoje">Feito hoje:</label>
       <input type="checkbox" class="form-control" id="isFeitoHoje" name="isFeitoHoje" required>
     </div>
-
+ <br>
     <input type="submit"  class="btn btn-primary" value="Cadastrar">	
-    <a href="/home" class="btn btn-sucessy">Voltar</a>    
+ <a href="/home" class="btn btn-secondary">Voltar</a>  
 		
 		
 		
 	</form>
-	<a href="/home">Voltar</a>
+</div>
 </body>
 </html>
 

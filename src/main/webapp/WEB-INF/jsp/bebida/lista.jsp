@@ -13,13 +13,16 @@
 </head>
 <body>
 	<div class="container">
+	   <br>
   <h2>	Lista de bebidas</h2>
+   <br>
   <ul class="list-group">
   <c:forEach var="bebida" items="${bebidasLista}">
     <li class="list-group-item">${bebida.nome} <a href="/bebida/excluir/${bebida.id}">excluir</a> </li>
     </c:forEach>  
     <ul>
-    	<a href="/home">Voltar</a>    
+     <br>
+  <a href="/home" class="btn btn-secondary">Voltar</a>
     </div>	
 </body>
 </html>

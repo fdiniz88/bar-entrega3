@@ -12,6 +12,9 @@
 </head>
 <body>
 	<div class="container">
+	 <br>
+		  <h2>Cadastrar usuário</h2>
+		   <br>
 	<form action="/usuario" method="post">
 
 		
@@ -27,8 +30,9 @@
       <label for="senha">Senha:</label>
       <input type="text" class="form-control" id="senha" placeholder="Digitar senha" name="senha" required>
     </div> 
+     <br>
     <input type="submit"  class="btn btn-primary" value="Cadastrar">	
-    <a href="/home" class="btn btn-sucessy">Voltar</a> 
+    <a href="/home" class="btn btn-secondary">Voltar</a> 
 	</form>
 	    </div> 
 </body>

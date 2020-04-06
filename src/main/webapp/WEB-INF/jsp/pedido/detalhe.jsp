@@ -12,24 +12,24 @@
 </head>
 <body>
 	<div class="container">
+	 <br>
 	  <h2>Cadastrar pedido</h2>
+	   <br>
 	<form action="/pedido" method="post">
-		Descrição:<input type="text" name="descricao">
-		idCliente:<input type="number" name="idCiente">		
-		<input type="submit" value="Cadastrar">
-		
+	
 		    <div class="form-group">
       <label for="descricao">Descrição:</label>
       <input type="text" class="form-control" id="descricao" placeholder="Digitar descrição" name="descricao" required>
     </div>
-    <div class="form-group">
+   <!--  <div class="form-group">
       <label for="idCiente">Número do cliente:</label>
       <input type="number" class="form-control" id="idCiente" placeholder="Digitar número do cliente" name="idCiente" required>
-    </div>
+    </div> -->
+     <br>
     <input type="submit"  class="btn btn-primary" value="Cadastrar">	
-    <a href="/home" class="btn btn-sucessy">Voltar</a>  
+  <a href="/home" class="btn btn-secondary">Voltar</a>
 		
 	</form>
-		<a href="/home">Voltar</a>
+
 </body>
 </html>
