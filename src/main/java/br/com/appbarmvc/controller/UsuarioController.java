@@ -27,6 +27,7 @@ public class UsuarioController {
 	public String showLogin() {
 		return "login";
 	}
+
 	
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
 	public String showHome(
@@ -41,7 +42,7 @@ public class UsuarioController {
 			return "login";
 		}
 		
-		model.addAttribute("user", login);
+		/* model.addAttribute("user", login); */
 		
 		return "home";
 	}

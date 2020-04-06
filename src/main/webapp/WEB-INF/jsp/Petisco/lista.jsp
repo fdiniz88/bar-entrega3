@@ -10,14 +10,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <meta charset="ISO-8859-1">
-<title>usuários lista</title>
+<title>petiscos lista</title>
 </head>
 <body>
 	<div class="container">
-  <h2>	Lista de usuários </h2>
+  <h2>Lista de petiscos    </h2>
   <ul class="list-group">
-	<c:forEach var="usuario" items="${usuariosLista}">
-    <li class="list-group-item">${usuario.nome} <a href="/usuario/excluir/${usuario.id}">excluir</a>  </li>
+	<c:forEach var="petisco" items="${petiscosLista}">
+    <li class="list-group-item">${petisco.nome} <a href="/petisco/excluir/${petisco.id}">excluir</a>  </li>
     </c:forEach>  
     <ul>
     	<a href="/home">Voltar</a>    

@@ -4,14 +4,14 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>usuario detalhe</title>
+<title>pedido detalhe</title>
 </head>
 <body>
-	<form action="/usuario" method="post">
-		Nome:<input type="text" name="nome">
-		Login:<input type="text" name="login">
-		Senha:<input type="password" name="senha">
+	<form action="/pedido" method="post">
+		Descrição:<input type="text" name="descricao">
+		idCliente:<input type="number" name="idCiente">		
 		<input type="submit" value="Cadastrar">
 	</form>
+		<a href="/home">Voltar</a>
 </body>
 </html>
