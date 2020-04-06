@@ -16,10 +16,10 @@
 	<div class="container">
   <h2>Administrar pedidos</h2>
   <ul class="list-group">
-    <li class="list-group-item">Usuário</li>  
+<!--     <li class="list-group-item">Usuário</li>  
     <li class="list-group-item"><a href="/usuarios">Lista de usuários</a></li>
     <li class="list-group-item"><a href="/usuario">Cadastro de usuário</a></li>
-    <li class="list-group-item"></li>
+    <li class="list-group-item"></li> -->
     
     <li class="list-group-item">Cliente</li>  
     <li class="list-group-item"><a href="/clientes">Lista de clientes</a> </li>

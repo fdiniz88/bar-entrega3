@@ -11,8 +11,6 @@
 <title>bebida detalhe</title>
 </head>
 <body>
-
-	
 	
 	<div class="container">
   <h2>Cadastrar bebida</h2>
@@ -34,13 +32,8 @@
       <input type="number" class="form-control" id="id_produto" placeholder="Digitar número do produto" name="id_produto" required>
     </div>
     <input type="submit"  class="btn btn-primary" value="Cadastrar">	
-    <a href="/home" class="btn btn-sucessy">Voltar</a>
-     
+    <a href="/home" class="btn btn-sucessy">Voltar</a>     
   </form>
-</div>		
-		
-		
-		
-		
+</div>			
 </body>
 </html>
